@@ -14,6 +14,7 @@ public class IterativeSolution {
         return c;
     }
 
+    
     // d) Iterative method to reverse a string
     public String reverseString(String str) {
         StringBuilder reversed = new StringBuilder();
@@ -22,7 +23,7 @@ public class IterativeSolution {
         }
         return reversed.toString();
     }
-    
+
     // e) Iterative method to check if a character exists in a string
     public boolean charExists(String str, char c) {
         for (int i = 0; i < str.length(); i++) {
